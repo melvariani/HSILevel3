@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-@gksrjnfxu+jc%bg5wvr55czm#6kj#c727)bq*ld)6w^#p%8yq
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'hsilevel3.herokuapp.com'
+    'hsilevel3-weatherdiarypoll.herokuapp.com'
 ]
 
 
