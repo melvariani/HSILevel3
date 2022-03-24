@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HSI SANDBOX</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" />
+    <style>
+        .judul{
+            background-color:cornflowerblue;
+            color:azure;
+            font-size: 40px;
+            font-family:fantasy;
+            letter-spacing: 1px;
+            
+        }
+
+        .boxfooter{
+            background-color: lavenderblush;
+            /*width: auto;
+            max-height: auto;*/
+
+            height: 70px;
+            max-width: auto;
+        }
+
+        .boxfooter p{
+            margin-top: 5px;
+        }
+
+        .foot{
+            /*background-color :red;*/
+            margin-left: 92px;
+            margin-top: 20px;
+            color:lightpink;
+            font-size: 20px;
+            font-family:monospace;
+            letter-spacing: 1px;
+            
+        }
+
+        .button{
+            background-color: lightskyblue;
+            border:none;
+            color: azure;
+            border-radius: 5px;
+            transition-duration: 0.3s;
+            font-size: 20px;
+        }
+
+        .button:hover {
+            background-color: white;
+            color: lightskyblue;
+            border: 1px solid;
+            border-color: lightskyblue;
+          }
+        
+    </style>
+</head>
+
+<body>
+    <!-- <section class="hero is-primary"> -->
+    <section class="judul">
+        <div class="hero-body">
+            <div class="container">
+                <!-- <h1 class="title"> -->
+                <h1>
+                    HSI SANDBOX LEVEL 3 
+                </h1>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+                    <div class="control">
+                        <a href="{% url 'diary' %}">
+                            <button class="button">Diary</button>
+                        </a>
+                    </div>
+                    <br>
+                    <div class="control">
+                        <a href="{% url 'weather' %}">
+                            <button class="button">The Weather</button>
+                        </a>
+                    </div>
+                    <br>
+                    <div class="control">
+                        <a href="{% url 'poll' %}">
+                            <!-- <button class="button is-link">Poll</button> -->
+                            <button class="button">Poll</button>
+                        </a>
+                    </div>
+                </div>
+
+    </section>
+    <section class="boxfooter">
+        <!-- <footer class="footer"> -->
+        <footer class="foot">
+            <p>Melvariani </p>
+            <p>Instagram: @jafacraft</p>
+        </footer>
+    </section>
+</body>
+
+</html>
