@@ -1,1 +1,1 @@
-web: gunicorn DWP2.wsgi
+web: gunicorn DWP.wsgi
