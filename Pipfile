@@ -9,6 +9,7 @@ requests = "*"
 django-widget-tweaks = "*"
 whitenoise = "*"
 gunicorn = "*"
+dj-database-url = "*"
 
 [dev-packages]
 
